@@ -340,12 +340,14 @@ let all = document.querySelector("body");
 appointment_btn.addEventListener("click", function () {
   appointment_form.classList.remove("hide-form");
   upper_part.style.opacity = 0.3;
+  all.style.overflowY = "hidden";
 });
 
 let cl_btn = document.querySelector(".close-btn");
 cl_btn.addEventListener("click", function () {
   appointment_form.classList.add("hide-form");
   upper_part.style.opacity = 1;
+  all.style.overflowY = "visible";
 });
 
 //// Form Validation
