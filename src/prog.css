@@ -11,6 +11,19 @@
 .block {
   display: flex;
 }
+#first-name,
+#last-name {
+  margin-left: 30px;
+}
+#mail-id,
+#age,
+#date-sel {
+  margin-left: 39px;
+}
+#doc-sel {
+  margin-left: 5px;
+  width: 105px;
+}
 .name {
   color: rgb(31, 134, 165);
   padding-left: 45px;
